@@ -7,6 +7,10 @@ You must watch the briefing video and read through the manual to engage in the d
 
 Section: [Insert your lab section]
 
+MacID: [bhattk25]
+
+StudentID: [400442107]
+
 MacID: [Insert your macID here]
 
 StudentID: [Insert your numerical student ID here]

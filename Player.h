@@ -4,6 +4,7 @@
 #include "GameMechs.h"
 #include "objPos.h"
 #include "objPosArrayList.h"
+#include "SnakeFood.h"
 
 class Player
 {
@@ -16,16 +17,20 @@ class Player
     public:
         enum Dir {UP, DOWN, LEFT, RIGHT, STOP};  // This is the direction state
 
-        Player(GameMechs* thisGMRef);
+        Player(GameMechs* thisGMRef, SnakeFood* food);
         ~Player();
 
         void getPlayerPos(objPos &returnPos); // Upgrade this in iteration 3.
+        objPosArrayList* getPlayerPosList();
         void updatePlayerDir();
         void movePlayer();
 
     private:
-        objPos playerPos;   // Upgrade this in iteration 3.       
+        objPosArrayList* playerPosList;
+        //objPos playerPos;   // Upgrade this in iteration 3.  
         enum Dir myDir;
+        char input;
+        SnakeFood* food;
 
         // Need a reference to the Main Game Mechanisms
         GameMechs* mainGameMechsRef;

@@ -17,6 +17,7 @@ class objPosArrayList
         ~objPosArrayList();
 
         int getSize();
+        
         void insertHead(objPos thisPos);
         void insertTail(objPos thisPos);
         void removeHead();

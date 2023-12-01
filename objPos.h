@@ -15,11 +15,11 @@ class objPos
         void setObjPos(objPos o);        
         void setObjPos(int xPos, int yPos, char sym);  
         void getObjPos(objPos &returnPos);
+        
         char getSymbol();
 
-        bool isPosEqual(const objPos* refPos);
-        
-        char getSymbolIfPosEqual(const objPos* refPos);
+        bool isPosEqual(objPos* refPos);
+        char getSymbolIfPosEqual(objPos* refPos);
 };
 
 #endif
