@@ -11,6 +11,6 @@ MacID: [bhattk25]
 
 StudentID: [400442107]
 
-MacID: [Insert your macID here]
+MacID: [philia10]
 
-StudentID: [Insert your numerical student ID here]
+StudentID: [400450679]
