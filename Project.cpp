@@ -123,7 +123,6 @@ void DrawScreen(void)
         printf("\n");
     }
 
-    int length = ()
 
     printf("Your Score: %d\n", myGM->getScore());
     printf("Board Size 20 x 10\n");
